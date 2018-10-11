@@ -1,0 +1,16 @@
+name: Broadcaster
+main: de.kleindev.broadcaster.Main
+author: KleinDev
+version: 2.0
+
+commands:
+  broadcast:
+    aliases: [bc, broadcaster]
+    usage: "/bc <message>"
+    description: "Broadcast message to all online players"
+  bcsetup:
+    usage: "/bcsetup <reload|update|format>"
+    description: "Set up the broadcast plugin"
+  bcadmin:
+    usage: "/bcadmin <message>"
+    description: "Broadcast message to all online players which have the required permission"

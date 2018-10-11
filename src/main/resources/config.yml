@@ -1,0 +1,18 @@
+Configuration:
+  NotifyUpdate: true
+  Format: "&7(%time_HH:mm%) &8[&3Broadcaster&8] &f%message%"
+
+
+Messages:
+  Usage: |
+    "&8[&3Broadcaster&8] &7Version: &f%version%"
+    "&f/bc <message>"
+    "&f/bcsetup <reload|update>"
+  NoPermission: "&8[&3Broadcaster&8] &cYou don't have permission to do that!"
+  ReloadCompleted: "&8[&3Broadcaster&8] &fReload completed!"
+
+Permissions:
+  Base: "Broadcaster.use"
+  Reload: "Broadcaster.setup.reload"
+  Update: "Broadcaster.setup.update"
+  NotifyUpdate: "Broadcaster.notifyupdate"
